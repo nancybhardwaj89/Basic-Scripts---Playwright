@@ -17,7 +17,6 @@ public class BrowserContextConcept {
 		p1.navigate("https://www.orangehrm.com/en/30-day-free-trial");
 		p1.fill("#Form_getForm_subdomain", "Test");
 		System.out.println("Page Title is:" + p1.title());
-
 		BrowserContext bc2 = browser.newContext();
 		Page p2 = bc2.newPage();
 		p2.navigate("http://www.automationpractice.pl/index.php");
